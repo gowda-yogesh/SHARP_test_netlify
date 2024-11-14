@@ -44,6 +44,7 @@ const data = computed(() => ({
   labels: ["high", "medium", "low"],
   datasets: [
     {
+      label: 'SHARP analysis',
       backgroundColor: ["#BA3030", "#FBA04B", "#FFDD33"],
       data: [
         overallAnalysis.high || 0,
